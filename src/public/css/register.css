@@ -1,0 +1,58 @@
+.user-registration__content {
+    width: 30%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px #808080;
+}
+
+.user-registration__heading {
+    color: #fff;
+    font-size: 12px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #1E90FF;
+    padding: 5px 10px;
+}
+
+.form {
+    text-align: center;
+    padding: 10px;
+}
+
+.form__group {
+    display: flex;
+    margin: 10px;
+}
+
+.form__icon {
+    margin: 0px 10px;
+}
+
+.form__icon--image {
+    width: 20px;
+    height: 20px;
+}
+
+.form__input--text {
+    padding: 10px;
+    margin-left: 15px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.form__button {
+    text-align: right;
+    margin: 10px;
+}
+
+.form__button-submit {
+    padding: 15px;
+    color: #fff;
+    background-color: #1E90FF;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

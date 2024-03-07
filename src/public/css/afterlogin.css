@@ -1,0 +1,46 @@
+.nav-content {
+    margin: 50px 50px;
+}
+
+.nav__close-btn {
+    background-color: #1E90FF;
+    color: #fff;
+    font-size: 24px;
+    font-weight: lighter;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav {
+    width: 300px;
+    margin: 0px auto;
+}
+
+.nav__list {
+    padding: 20px;
+}
+
+.nav__item {
+    text-align: center;
+    margin: 10px;
+}
+
+.nav__button {
+    background-color: #fff;
+    color: #1E90FF;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.nav__link {
+    color: #1E90FF;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}

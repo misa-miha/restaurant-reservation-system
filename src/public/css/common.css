@@ -1,0 +1,30 @@
+.contents {
+    background: #F5F5F5;
+    padding-bottom: 80px;
+}
+
+.header__inner {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+    margin: 0px 10px;
+    border-radius: 5px;
+    background-color: #1E90FF;
+    padding: 5px;
+}
+
+.nav__icon {
+    width: 30px;
+    height: 30px;
+}
+
+.header-logo {
+    color: #1E90FF;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
