@@ -39,23 +39,23 @@
 
 #　環境変数
 
-DB_CONNECTION=mysql<br>　　
-DB_HOST=mysql<br>　　
-DB_PORT=3306<br>　　
-DB_DATABASE=laravel_db　<br>　
-DB_USERNAME=laravel_user<br>　　
-DB_PASSWORD=laravel_pass　<br>　
+DB_CONNECTION=mysql<br>
+DB_HOST=mysql<br>
+DB_PORT=3306<br>
+DB_DATABASE=laravel_db<br>
+DB_USERNAME=laravel_user<br>
+DB_PASSWORD=laravel_pass<br>
 
 # 環境構築
 
 ・docker-compose up -d --build<br>
-　　　　　コンテナの起動、イメージのビルド
+　　　コンテナの起動、イメージのビルド
 
 ・docker-compose exec php bash<br>
-　　　　　コンテナ内にログイン
+　　　コンテナ内にログイン
 
 ・composer create-project "laravel/laravel=8.*" . --prefer-dist<br>
-　　　　　Laravelのプロジェクトを作成
+　　　Laravelのプロジェクトを作成
 
 ・docker-compose stop<br>
-   コンテナの停止
+  コンテナの停止
