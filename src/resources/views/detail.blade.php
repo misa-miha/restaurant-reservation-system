@@ -31,17 +31,33 @@
             <h3 class="reservation__content-ttl">
                 予約
             </h3>
-            <form class="reservation-form" action="/reservethanks" method="post">
+            <form class="reservation-form" action="/reservethanks" method="post" oninput="updateConfirmation()">
                 @csrf
+                <input type="hidden" name="restaurant_id" value="{{ $item->id }}">
                 <div class="reservation-form__group">
                     <div class="reservation-form__select-box">
                         <input class="reservation-date" type="date" name="reservation_date">
+                        <div class="form__error">
+                            @error('reservation_date')
+                            {{ $message }}
+                            @enderror
+                        </div>
                     </div>
                     <div class="reservation-form__select-box">
-                        <input class="reservation-time" type="time" name="reservation_time" step="1800">
+                        <input class="reservation-time" type="time" name="reservation_time" step="600">
+                        <div class="form__error">
+                            @error('reservation_time')
+                            {{ $message }}
+                            @enderror
+                        </div>
                     </div>
                     <div class="reservation-form__select-box">
                         <input class="reservation-number-of-people" type="number" name="number_of_people" step="1">
+                        <div class="form__error">
+                            @error('number_of_people')
+                            {{ $message }}
+                            @enderror
+                        </div>
                     </div>
                 </div>
                 <div class="reservation-confirm">
@@ -52,15 +68,15 @@
                         </tr>
                         <tr class="reservation-confirm__table__row">
                             <th class="reservation-confirm__table__header">Date</th>
-                            <td class="reservation-confirm__table__item">{{ $item->restaurant_name }}</td>
+                            <td class="reservation-confirm__table__item" id="confirmation-date"></td>
                         </tr>
                         <tr class="reservation-confirm__table__row">
                             <th class="reservation-confirm__table__header">Time</th>
-                            <td class="reservation-confirm__table__item">{{ $item->restaurant_name }}</td>
+                            <td class="reservation-confirm__table__item" id="confirmation-time"></td>
                         </tr>
                         <tr class="reservation-confirm__table__row">
                             <th class="reservation-confirm__table__header">Number</th>
-                            <td class="reservation-confirm__table__item">{{ $item->restaurant_name }}</td>
+                            <td class="reservation-confirm__table__item" id="confirmation-number"></td>
                         </tr>
                     </table>
                 </div>
@@ -70,6 +86,18 @@
             </form>
         </div>
     </div>
+
+    <script>
+    function updateConfirmation() {
+        var date = document.getElementsByName("reservation_date")[0].value;
+        var time = document.getElementsByName("reservation_time")[0].value;
+        var number = document.getElementsByName("number_of_people")[0].value;
+
+        document.getElementById("confirmation-date").innerText = date;
+        document.getElementById("confirmation-time").innerText = time;
+        document.getElementById("confirmation-number").innerText = number;
+    }
+</script>
 
 </main>
 

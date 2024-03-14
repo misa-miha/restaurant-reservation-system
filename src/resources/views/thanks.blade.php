@@ -8,11 +8,11 @@
 
 <main>
     <div class="thanks__content">
-        <div class="thanks__heading">
-            <h2>会員登録ありがとうございます</h2>
+        <div class="thanks__text">
+            <p class="thanks__text__message">会員登録ありがとうございます</p>
         </div>
         <div class="login__button">
-            <a href="/login" class="login__button-submit">
+            <a href="/" class="login__button-submit">
                 ログインする
             </a>
         </div>

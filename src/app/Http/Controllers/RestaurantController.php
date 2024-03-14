@@ -19,7 +19,26 @@ class RestaurantController extends Controller
 
     public function search(Request $request)
     {
-        $restaurants = Restaurant::with('prefecture','genre')->PrefectureSearch($request->prefecture_id)->GenreSearch($request->genre_id)->KeywordSearch($request->keyword)->get();
+        $query = Restaurant::with('prefecture', 'genre');
+
+        if ($request->filled('prefecture_id')) {
+            $query->PrefectureSearch($request->prefecture_id);
+        }
+
+        if ($request->filled('genre_id')) {
+            $query->GenreSearch($request->genre_id);
+        }
+
+        if ($request->filled('keyword')) {
+            $query->KeywordSearch($request->keyword);
+        }
+
+        if (!$request->filled('prefecture_id') && !$request->filled('genre_id') && !$request->filled('keyword')) {
+            $restaurants = Restaurant::with('prefecture', 'genre')->get();
+        } else {
+            $restaurants = $query->get();
+        }
+
         $prefectures = Prefecture::all();
         $genres = Genre::all();
 

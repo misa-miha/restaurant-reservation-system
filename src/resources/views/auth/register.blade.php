@@ -13,13 +13,15 @@
             <form class="form" action="/register" method="post">
             @csrf
                 <div class="form__group">
-                    <label for="name">
-                        <span class="form__icon">
-                            <img class="form__icon--image" src="{{ asset('images/person.svg') }}" alt="Icon description">
-                        </span>
-                    </label>
                     <div class="form__input">
-                        <input type="text"  class="form__input--text" id="name" name="name" placeholder="Username" value="{{ old('name') }}" />
+                        <label for="name">
+                            <span class="form__icon">
+                                <img class="form__icon--image" src="{{ asset('images/person.svg') }}" alt="Icon description">
+                            </span>
+                        </label>
+                        <div class="form__input--textbox">
+                            <input type="text"  class="form__input--text" id="name" name="name" placeholder="Username" value="{{ old('name') }}" />
+                        </div>
                     </div>
                     <div class="form__error">
                         @error('name')
@@ -28,13 +30,15 @@
                     </div>
                 </div>
                 <div class="form__group">
-                    <label for="email">
-                        <span class="form__icon">
-                            <img class="form__icon--image" src="{{ asset('images/mail.svg') }}" alt="Icon description">
-                        </span>
-                    </label>
                     <div class="form__input">
-                        <input type="email" class="form__input--text" id="email" name="email" placeholder="Email" value="{{ old('email') }}" />
+                        <label for="email">
+                            <span class="form__icon">
+                                <img class="form__icon--image" src="{{ asset('images/mail.svg') }}" alt="Icon description">
+                            </span>
+                        </label>
+                        <div class="form__input--textbox">
+                            <input type="email" class="form__input--text" id="email" name="email" placeholder="Email" value="{{ old('email') }}" />
+                        </div>
                     </div>
                     <div class="form__error">
                         @error('email')
@@ -43,13 +47,15 @@
                     </div>
                 </div>
                 <div class="form__group">
-                    <label for="password">
-                        <span class="form__icon">
-                            <img class="form__icon--image" src="{{ asset('images/password.svg') }}" alt="Icon description">
-                        </span>
-                    </label>
                     <div class="form__input">
-                        <input type="password" class="form__input--text" id="password" name="password" placeholder="Password" value="{{ old('password') }}" />
+                        <label for="password">
+                            <span class="form__icon">
+                                <img class="form__icon--image" src="{{ asset('images/password.svg') }}" alt="Icon description">
+                            </span>
+                        </label>
+                        <div class="form__input--textbox">
+                            <input type="password" class="form__input--text" id="password" name="password" placeholder="Password" value="{{ old('password') }}" />
+                        </div>
                     </div>
                     <div class="form__error">
                         @error('password')

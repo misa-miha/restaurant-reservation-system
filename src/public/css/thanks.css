@@ -1,7 +1,33 @@
 .thanks__content {
     width: 30%;
+    height: 250px;
     margin: 50px auto;
     background-color: #fff;
     border-radius: 3px;
     box-shadow: 2px 2px 3px #808080;
+}
+
+.thanks__text {
+    padding: 50px 20px 20px;
+    text-align: center;
+}
+
+.thanks__text__message {
+    font-size: 20px;
+}
+
+.login__button {
+    text-align: center;
+    margin: 10px;
+}
+
+.login__button-submit {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: #1E90FF;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }

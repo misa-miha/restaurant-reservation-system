@@ -15,4 +15,5 @@ class Prefecture extends Model
     {
         return $this->hasMany(Restaurant::class);
     }
+
 }

@@ -67,6 +67,12 @@
     padding: 5px 20px;
 }
 
+.form__error {
+    height: 15px;
+    color: #F5F5F5;
+    text-align: left;
+}
+
 .reservation-date {
     border: none;
     border-radius: 5px;
@@ -92,22 +98,18 @@
 }
 
 .reservation-confirm__table__header {
-    padding: 5px 30px;
-}
-
-.reservation-confirm__table__item {
-    padding: 5px 30px;
-}
-
-.reservation-confirm__table__header {
     width: 30%;
     color: #fff;
     text-align: left;
+    padding: 5px 30px;
+    font-size: 14px;
 }
 
 .reservation-confirm__table__item {
     width: 70%;
     color: #fff;
+    padding: 5px 30px;
+    font-size: 14px;
 }
 
 .reservation-form__button {
@@ -126,3 +128,4 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+

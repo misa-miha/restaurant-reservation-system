@@ -1,0 +1,213 @@
+.mypage__title {
+    text-align: center;
+}
+
+.mypage__title--text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mypage__content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 40px;
+}
+
+.reservation__content {
+    width: 40%;
+}
+
+.reservation__content--title {
+    font-size: 20px;
+}
+
+.alert--success {
+    width: 80%;
+    padding: 10px 30px;
+    border-color: #badbcc;
+    background-color: #d1e7dd;
+    color: #0f5132;
+    margin-bottom: 20px;
+}
+
+.reservation__content__box {
+    width: 80%;
+    background-color: #1E90FF;
+    border-radius: 5px;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.reservation-confirm__table {
+    width: 100%;
+}
+
+.reservation-confirm__table__header {
+    width: 35%;
+    color: #fff;
+    text-align: left;
+    padding: 5px 30px;
+    font-size: 14px;
+}
+
+.reservation-confirm__table__item {
+    width: 70%;
+    color: #fff;
+    padding: 5px 30px;
+    font-size: 14px;
+}
+
+.reservation__content__box--top {
+    display: flex;
+    align-items: center;
+}
+
+.reservation__icon--left {
+    margin: 10px 10px 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.reservation__icon--left__image {
+    width: 20px;
+    height: 20px;
+}
+
+.reservation__content__box--top--title {
+    margin: 10px 0px;
+    color: #fff;
+}
+
+.form  {
+    background-color: #1E90FF;
+    border: none;
+}
+
+.reservation__delete {
+    background-color: #1E90FF;
+    border: none;
+    cursor: pointer;
+}
+.reservation__icon--right {
+    margin: 10px 10px 10px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.reservation__icon--right__image {
+    width: 20px;
+    height: 20px;
+}
+
+.reservation-confirm__table__item-input {
+    border: none;
+    background-color: #1E90FF;
+    color: #fff;
+}
+
+.form__error {
+    height: 15px;
+    color: #F5F5F5;
+    text-align: left;
+}
+
+.update-form__button {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.update-form__button-submit {
+    background-color: #4a74f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.favorite__content {
+    width: 60%;
+}
+
+.favorite__content--title {
+    font-size: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 50px;
+}
+
+.card__item {
+    width: 40%;
+    margin: 10px 1px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #D3D3D3;
+}
+
+.card__img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card__content {
+    padding: 20px;
+}
+
+.card__content__ttl {
+    font-size: 20px;
+    margin: 5px 0px;
+}
+
+.card__content-tag {
+    display: flex;
+}
+
+.card__content-tag-item {
+    font-size: 15px;
+}
+
+.card__content-tag-last-item {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.card__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__detail {
+    width: 40%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #1E90FF;
+    cursor: pointer;
+}
+
+.card__detail__text {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.card__favorite-button {
+    width: 20%;
+}
+
+.favorite-button {
+    background-color: #fff;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    border: none;
+}
+
+.favorite-button__img {
+    width: 100%;
+}

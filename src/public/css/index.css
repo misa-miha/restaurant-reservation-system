@@ -1,6 +1,37 @@
 .search-content {
+    width: 50%;
     display: flex;
-    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 0 0 auto;
+}
+
+.search-content__item {
+    margin-right: 15px;
+}
+
+.area-select {
+    border: none;
+}
+
+.genre-select {
+    border: none;
+}
+
+.search-input {
+    border: none;
+}
+
+.search-content__button-submit {
+    background-color: #fff;
+    border: none;
+    margin-left: 20px;
+}
+
+.form__icon--image {
+    width: 10px;
+    height: 10px;
 }
 
 .card {
@@ -46,6 +77,11 @@
     font-size: 15px;
 }
 
+.card__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
 .card__detail {
     width: 40%;
     padding: 5px 10px;
@@ -59,4 +95,20 @@
     font-size: 15px;
     text-decoration: none;
     color: #fff;
+}
+
+.card__favorite-button {
+    width: 20%;
+}
+
+.favorite-button {
+    background-color: #fff;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    border: none;
+}
+
+.favorite-button__img {
+    width: 100%;
 }

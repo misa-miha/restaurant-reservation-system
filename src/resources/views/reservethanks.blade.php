@@ -8,8 +8,8 @@
 
 <main>
     <div class="reservethanks__content">
-        <div class="reservethanks__heading">
-            <h2>ご予約ありがとうございます</h2>
+        <div class="reservethanks__text">
+            <p class="reservethanks__text__message">ご予約ありがとうございます</p>
         </div>
         <div class="back__button">
             <a href="/" class="back__button-submit">
