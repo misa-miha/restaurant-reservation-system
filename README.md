@@ -2,8 +2,8 @@
 会員登録、ログインをし、飲食店の検索やお気に入り、予約ができるアプリです。
 <img width="1399" alt="スクリーンショット 2024-03-14 20 30 05" src="https://github.com/misa-miha/restaurant-reservation-system/assets/135576763/640d0e37-1def-4b9f-98af-fb1690b4f3f1">
 
-##　作成した目的　　
-飲食店の予約をわかりやすく簡潔にでき、お気に入りしている店舗や予約している店舗を
+##　作成した目的<br>
+飲食店の予約をわかりやすく簡潔にでき、お気に入りしている店舗や予約している店舗を<br>
 視覚的にすぐ分かるアプリを作成したかったためです。
 
 ## 機能一覧
@@ -39,23 +39,23 @@
 
 #　環境変数
 
-DB_CONNECTION=mysql　　
-DB_HOST=mysql　　
-DB_PORT=3306　　
-DB_DATABASE=laravel_db　　
-DB_USERNAME=laravel_user　　
-DB_PASSWORD=laravel_pass　　
+DB_CONNECTION=mysql<br>　　
+DB_HOST=mysql<br>　　
+DB_PORT=3306<br>　　
+DB_DATABASE=laravel_db　<br>　
+DB_USERNAME=laravel_user<br>　　
+DB_PASSWORD=laravel_pass　<br>　
 
 # 環境構築
 
-・docker-compose up -d --build
+・docker-compose up -d --build<br>
 　　　　　コンテナの起動、イメージのビルド
 
-・docker-compose exec php bash
+・docker-compose exec php bash<br>
 　　　　　コンテナ内にログイン
 
-・composer create-project "laravel/laravel=8.*" . --prefer-dist
+・composer create-project "laravel/laravel=8.*" . --prefer-dist<br>
 　　　　　Laravelのプロジェクトを作成
 
-・docker-compose stop
+・docker-compose stop<br>
    コンテナの停止
