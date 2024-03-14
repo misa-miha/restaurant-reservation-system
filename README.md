@@ -2,7 +2,7 @@
 会員登録、ログインをし、飲食店の検索やお気に入り、予約ができるアプリです。
 <img width="1399" alt="スクリーンショット 2024-03-14 20 30 05" src="https://github.com/misa-miha/restaurant-reservation-system/assets/135576763/640d0e37-1def-4b9f-98af-fb1690b4f3f1">
 
-##　作成した目的
+##　作成した目的　　
 飲食店の予約をわかりやすく簡潔にでき、お気に入りしている店舗や予約している店舗を
 視覚的にすぐ分かるアプリを作成したかったためです。
 
@@ -19,7 +19,7 @@
 | 言語・フレームワーク  | バージョン |
 | --------------------- | ---------- |
 | Laaravel              | 8.75       |
-| PHP               　　　　　　 | ７．３/8.0     |
+| PHP               　　　　　　 | 7.3/8.0    |
 | nginx　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 | 1.21.1     |
 | MySQL                 | 8.0        |
 
@@ -39,12 +39,12 @@
 
 #　環境変数
 
-DB_CONNECTION=mysql
-DB_HOST=mysql
-DB_PORT=3306
-DB_DATABASE=laravel_db
-DB_USERNAME=laravel_user
-DB_PASSWORD=laravel_pass
+DB_CONNECTION=mysql　　
+DB_HOST=mysql　　
+DB_PORT=3306　　
+DB_DATABASE=laravel_db　　
+DB_USERNAME=laravel_user　　
+DB_PASSWORD=laravel_pass　　
 
 # 環境構築
 
