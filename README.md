@@ -49,13 +49,13 @@ DB_PASSWORD=laravel_pass<br>
 # 環境構築
 
 ・docker-compose up -d --build<br>
-　　　コンテナの起動、イメージのビルド
+  コンテナの起動、イメージのビルド
 
 ・docker-compose exec php bash<br>
-　　　コンテナ内にログイン
+  コンテナ内にログイン
 
 ・composer create-project "laravel/laravel=8.*" . --prefer-dist<br>
-　　　Laravelのプロジェクトを作成
+  Laravelのプロジェクトを作成
 
 ・docker-compose stop<br>
   コンテナの停止
